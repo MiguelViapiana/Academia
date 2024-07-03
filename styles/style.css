@@ -1,0 +1,120 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #032030;
+    color: #fff;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    
+}
+
+header {
+    background-color: #003554;
+    padding: 20px 0;
+    
+}
+
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav li {
+    margin-left: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+.hero {
+    position: relative;
+    background-image: url(op1.png);
+    background-size: cover;
+    background-position: center bottom;
+    background-attachment: fixed;
+    text-align: center;
+    padding: 100px 20px;
+    box-shadow: inset 6px 8px 20px 4px rgba(0, 0, 0, 0.534);
+    /* filter: brightness(0.25) opacity(0.75); */
+
+
+}
+
+.hero h2 {
+    font-size: 2.5em;
+    margin: 0 0 20px 0;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin: 0 0 40px 0;
+}
+
+.hero .btn {
+    background-color: #006494;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 1.2em;
+    border-radius: 5px;
+}
+.hero .container {
+    position: relative;
+    z-index: 1;
+    color: #fff;
+}
+
+.hero .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.7); /* Overlay com opacidade */
+}
+
+.features {
+    padding: 50px 0;
+    background-color: #022B42;
+    text-align: center;
+    box-shadow: 0px -8px 20px 4px rgba(0, 0, 0, 0.534);
+    
+}
+
+.features .feature {
+    margin-bottom: 30px;
+}
+
+.features h3 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #003554;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9em;
+}

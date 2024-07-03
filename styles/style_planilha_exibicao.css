@@ -1,0 +1,79 @@
+body {
+    background-color: white;
+    color: black;
+}
+
+header {
+    background-color: #022B42;
+}
+
+.navbar {
+    background-color: #003554;
+}
+
+.navbar .btn-outline-primary {
+    color: #ffffff;
+    border-color: #006494;
+}
+
+.navbar .btn-outline-primary:hover {
+    background-color: #006494;
+    border-color: #006494;
+}
+
+.table {
+    background-color: white;
+}
+
+.table thead {
+    background-color: white;
+}
+
+.table tbody tr {
+    background-color: white;
+}
+
+.table tbody tr:hover {
+    background-color: #004D74;
+}
+
+.table-bordered {
+    border: 1px solid #006494;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: #022B42;
+}
+
+.table-striped tbody tr:nth-of-type(even) {
+    background-color: #032030;
+}
+
+.table-hover tbody tr:hover {
+    background-color: #004D74;
+}
+
+.btn-primary {
+    background-color: #006494;
+    border-color: #006494;
+}
+
+.btn-primary:hover {
+    background-color: #004D74;
+    border-color: #004D74;
+}
+
+.btn-danger {
+    background-color: #006494;
+    border-color: #006494;
+}
+
+.btn-danger:hover {
+    background-color: #004D74;
+    border-color: #004D74;
+}
+
+td{
+    background-color: white;
+}
+

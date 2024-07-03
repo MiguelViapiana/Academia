@@ -1,0 +1,46 @@
+#032030, #022B42, #003554, #004D74, #006494, #006DA4
+
+body {
+    background-color: #032030;
+    color: #FFFFFF;
+}
+
+.navbar {
+    background-color: #004D74;
+}
+
+.jumbotron {
+    background-color: #006DA4;
+    color: #FFFFFF;
+}
+
+.btn-primary {
+    background-color: #006494;
+    border-color: #006494;
+}
+
+.card {
+    background-color: #022B42;
+    color: #FFFFFF;
+}
+
+.card .btn-primary {
+    background-color: #006DA4;
+    border-color: #006DA4;
+}
+
+footer {
+    background-color: #003554;
+}
+.treinos{
+    display: flex;
+    flex-direction: row;
+ 
+    
+}
+.nometreino{
+    display: flex;  
+    flex-direction: row; 
+  
+    
+}

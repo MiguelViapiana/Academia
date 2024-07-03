@@ -1,0 +1,30 @@
+/* #032030, #022B42, #003554, #004D74, #006494, #006DA4 */
+
+body{
+    background-color: white;
+
+}
+header{
+    background-color: #032030;
+}
+
+.navbar {
+    background-color: #004D74;
+}
+
+form{
+    width: 50vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.label{
+    background-color: #006494;
+    color: white;
+    border: none;
+}
+
+.divExercicio{
+    background-color: #003554;
+    width: 60vw;
+}
